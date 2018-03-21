@@ -1,0 +1,28 @@
+@import url("main-style.css");
+@import url("footer-style.css");
+
+section
+{
+	width: 90%;
+	margin: 0 auto;
+}
+.top-nav
+{
+	text-align: right;
+	width: 50%;
+	position: absolute;
+	top: 60px;
+	right: 5%;
+}
+.top-nav a
+{
+	font-size: 160%;
+	color: orange;
+	margin-left: 5%;
+}
+
+
+/*
+	Go full width screen
+	sharp rectangles for nav buttons
+*/

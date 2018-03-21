@@ -1,0 +1,52 @@
+@import url("main-style.css");
+@import url("footer-style.css");
+
+.menu-list
+{
+	text-align: center;
+	font-size: 200%;
+}
+.menu-list  a
+{
+	color: red;
+	margin-right: 1%;
+	font-weight: bold;
+}
+.box
+{
+	width: 28%;
+	float: left;
+	margin-left: 3.5%; 
+	margin-bottom: 2%;
+	border: 1px solid black;
+	padding: 0.5%;
+	background-color: #fefefe;
+}
+.box:hover{	background-color: #dadada;}
+.box a
+{
+	text-decoration: none;
+	color: black;
+}
+.box a:hover {text-decoration: none; color:black;}
+.box img
+{
+	width: 100%;
+}
+.box span
+{
+	color: red;
+	font-size: 110%;
+	font-weight: bold;
+}
+.box p
+{
+	white-space: pre-wrap;
+}
+
+aside
+{
+	width: 100%;
+	margin-bottom: 10%;
+	float: left;
+}

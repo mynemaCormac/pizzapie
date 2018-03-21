@@ -1,0 +1,18 @@
+@import url("main-style.css");
+@import url("footer-style.css");
+
+.lower-box tr th
+{
+	font-family: arial;
+	font-size: 120%;
+}
+.lower-box tr td
+{
+	padding: 1%;
+	width: 30%;
+}
+.box
+{
+	height: 250px;
+	background-color: black;
+}

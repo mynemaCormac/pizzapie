@@ -1,0 +1,120 @@
+@import url("main-style.css");
+@import url("footer-style.css");
+
+h1
+{
+	font-family: "lato", sans-serif;
+	text-align: center;
+}
+.buff-h1
+{
+	font-size: 180%;
+	font-weight: bold;
+	font-family: "lato", sans-serif;
+	text-align: center;
+}
+.first-half
+{
+	width: 45%;
+	float: left;
+}
+.div-1
+{
+	width: 5%;
+	border-right: 2px solid grey;
+	height: 110px;
+	float: left;
+}
+p
+{
+	position: relative;
+	top: 100px;
+	left: -12px;
+	float: left;
+	font-weight: bold;
+}
+.div-2
+{
+	position: relative;
+	top: 140px;
+	left: -92px;
+	width: 5%;
+	border-right: 2px solid grey;
+	height: 110px;
+	float: left;
+}
+.second-half
+{
+	position: relative;
+	top: -100px;
+	width: 45%;
+	float: right;
+	margin: 0 auto;
+}
+.benefits
+{
+	padding: 5%;
+	width: 80%;
+	background-color: #f4f4f4;
+}
+
+form
+{
+	width: 80%;
+	margin: 0 auto;
+}
+input[type="text"]
+{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+.half input[type="text"]
+{
+	width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    margin-right: 5%;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+input[type="password"]
+{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+.btn
+{
+	background-color: black;
+	width: 100%;
+	font-size: 15px;
+	padding: 15px 23px;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+}
+.btn:hover {background-color: #202020;}
+
+.email{
+ 	background-image: url('./icons/mail.jpg');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.pass{
+	background-image: url('./icons/lock.jpg');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}

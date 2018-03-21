@@ -1,0 +1,70 @@
+@import url("footer-style.css");
+
+header,footer a:hover
+{
+	animation-name: delay;
+	animation-duration: 1s;
+}
+@keyframes delay
+{
+	0% {color: white;}
+	50% {color: red;}
+	100% {color: red;}
+}
+header
+{
+	background-color: black;
+	padding: 1%;
+	border-bottom: 5px solid red;
+}
+header img
+{
+	width: 20%;
+	margin-left: 2%;
+}
+.sub-nav
+{
+	text-align: right;
+	width: 50%;
+	position: absolute;
+	top: 1%;
+	right: 5%;
+}
+.sub-nav a
+{
+	font-size: 120%;
+	color: orange;
+	margin-left: 5%;
+
+}
+nav
+{
+	text-align: right;
+	width: 50%;
+	position: absolute;
+	top: 60px;
+	right: 5%;
+}
+nav a
+{
+	font-size: 160%;
+	color: orange;
+	margin-left: 5%;
+}
+
+section
+{
+	width: 98%;
+	margin: 0 auto;
+}
+
+@media (max-width: 879px){
+	header img {width: 40%;}
+}
+@media (pointer: coarse){
+	header img {width: 50%;}
+	nav 
+	{
+		/*make a drawer style for this one*/
+	}
+}

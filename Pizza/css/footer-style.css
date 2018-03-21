@@ -1,0 +1,32 @@
+footer
+{
+	left: 0;
+	bottom: 0;
+	position: absolute;
+
+	width: 100%;
+
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: white;
+	background-color: black;
+
+	border-top: 5px solid red;
+}
+footer span {margin-left: 2%;}
+.more
+{
+	position: relative;
+	text-align: center;
+	margin-left: 10%;
+}
+.more a
+{
+	color: white;
+	margin-right: 1%;
+}
+.follow
+{
+	float: right;
+	margin-right: 5%;
+}

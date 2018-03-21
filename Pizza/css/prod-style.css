@@ -1,0 +1,13 @@
+@import url("main-style.css");
+@import url("footer-style.css");
+
+section
+{
+	width: 80%
+}
+.product-pic
+{
+	float: left;
+	width: 40%;
+	margin-right: 2%;
+}
