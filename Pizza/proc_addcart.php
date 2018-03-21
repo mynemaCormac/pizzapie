@@ -49,17 +49,17 @@
 
 		//Getting the current data from the database, specifically QTY and TOTAL
 		$preQty = $checkCart_r['qty'];
-		$preTotal = $checkCart_r['total'];
+		$preTotal = $checkCart_r['subtotal'];
 
 		$newQty = $preQty + $qty;
 		$newTotal = $preTotal + $total;
 
 //Increasing the current QTY and TOTAL according to the new data added//
-		$execute = $conn->query("update cartcontents set qty=$newQty, total=$newTotal where PID=$id and OID=$OID");
+		$execute = $conn->query("update cartcontents set qty=$newQty, subtotal=$newTotal where PID=$id and OID=$OID");
 		header("location: by_product.php?pid=$id");
 	}else{
 //New Product in the cart
-		$execute = $conn->query("insert into cartcontents(OID,PID,qty,total,holdStatus) values($OID,$id,$qty,$total,'Pending')");
+		$execute = $conn->query("insert into cartcontents(OID,PID,qty,subtotal,holdStatus) values($OID,$id,$qty,$total,'Pending')");
 		header("location: by_product.php?pid=$id");
 	}
 
