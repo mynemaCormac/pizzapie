@@ -1,0 +1,32 @@
+# Progress Report (commited)
+  Customer Side - 50%
+    User Interface (Made)
+        Homepage
+        Products display by Category
+        Product display by Product
+        Cart and !Cart
+        Billing form
+        Receipt form
+    User Interface (Missing)
+        Offers page
+        Offer display by offer
+        Customer Profile Settings (Modify customer details)
+        #Customer Accessibility (This will be like the Caterogies page wherein there's a navigation for Pizza, Pasta, Drinks)
+          >Order History
+          >Saved Orders
+          >Fix Payment Preferences
+    
+  Branch Side   - 2%
+  # Plans and dones
+    Order Viewing (Orders.php)
+      >Table contents vew (done)
+      >Page Auto-update if order was confirmned (Every minute refresh)
+      >Group orders by Date (Table contents must only show orders for a single day)
+      >Time view options (in Date column)
+          -Real time (e.g. "12:26AM")
+          -Minutes age (e.g. "12 mins ago")
+          
+      
+        
+  
+  Admin Side    - 0%
